@@ -8,6 +8,7 @@ import '@solana/wallet-adapter-react-ui/styles.css'
 
 import './App.css'
 import { Airdrop } from './components/Airdrop'
+import { UserSignature } from './components/UserSIgnature'
 
 function App() {
   const network = WalletAdapterNetwork.Devnet
@@ -21,6 +22,7 @@ function App() {
           <div className='h-screen w-screen bg-gray-200 p-2 '>
             <div className='rounded-2xl w-full h-full bg-amber-100'>
               <Airdrop></Airdrop>
+              <UserSignature/>
             </div>
           </div>
           
